@@ -27,7 +27,7 @@
     "test": "jest",
     "test:coverage": "npm run test -- --collectCoverage",
     "lint": "eslint --ignore-path .gitignore '**/*.ts' -f codeframe",
-    "prepare": "npm run build && husky install"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
@@ -44,7 +44,6 @@
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
-    "husky": "^7.0.0",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.7",
     "ts-jest": "^27.1.4",
